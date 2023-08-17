@@ -11,23 +11,22 @@
                                             </svg>
                                         </div>
                                         
-                                        <a class="nav-item" href="/">About</a>
-                                        <a class="nav-item" href="/">Contact</a>
+                                        <NuxtLink class="nav-item" to="/about">About</NuxtLink>
+                                        <NuxtLink class="nav-item" to="/contact">Contact</NuxtLink>
 
                                         <div class=" nav-item nav-menu">
-                                            <a class=" nav-item menu-item " href="/">Full width Page</a>
+                                            <NuxtLink class=" nav-item menu-item " to="/fullwidthpage">Full width Page</NuxtLink>
                                             <ul class="dropdown-brand">
-                                                <li><a class="dropdown-item" href="#">Sub Menu 1</a></li>
-                                                <li><a class="dropdown-item" href="#">Sub menu 2</a></li>
-                                                <li><a class="dropdown-item" href="#">Sub Menu 3</a></li>
+                                                <li><NuxtLink class="dropdown-item" to="/fullwidthpage">Sub Menu 1</NuxtLink></li>
+                                                <li><NuxtLink class="dropdown-item" to="/fullwidthpage">Sub menu 2</NuxtLink></li>
+                                                <li><NuxtLink class="dropdown-item" to="/fullwidthpage">Sub Menu 3</NuxtLink></li>
                                             </ul>
 
                                         </div>
-                                        <a class=" nav-item menu-item " href="/">Submit Article</a>
-                                        <a class=" nav-item menu-item " href="/">Buy Theme</a>
+                                        <NuxtLink class=" nav-item menu-item " to="/submitarticle">Submit Article</NuxtLink>
+                                        <NuxtLink class=" nav-item menu-item " to="/buytheme">Buy Theme</NuxtLink>
 
                                      
-                                       
 
                                     </div>
 

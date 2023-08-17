@@ -8,7 +8,7 @@
             <div class="post-category">
               <p>{{ post.category }}</p>
             </div>
-            <h2 class="post-title">{{ post.title }}</h2>
+            <h2 > <NuxtLink  class="post-title" :to="{path:'/postdetail/fashion',query:{title:post.title,category:post.category,image:post.image,author:post.author,day:post.day}  }">{{ post.title }}</NuxtLink></h2>
           </div>
         </div>
       </div>
@@ -116,25 +116,34 @@ export default {
           id: 1,
           title: 'The 23 best men’s shorts for the summer, according to style experts',
           image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/man-768x512.jpg',
-          category: 'FASHION'
+          category: 'FASHION',
+          author:'John Doe',
+          day:'June 15, 2023',
+
         },
         {
           id: 2,
           title: 'Reddit communities go private to protest pricing plan for apps',
           image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/social.jpg',
-          category: 'ADVERTISING'
+          category: 'ADVERTISING',
+          author:'John Doe',
+          day:'June 15, 2023',
         },
         {
           id: 3,
           title: 'Adidas vs. Hoka: We put these favorite running shoes to the test',
           image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/adidas.jpg',
-          category: 'FASHION'
+          category: 'FASHION',
+          author:'John Doe',
+          day:'June 15, 2023',
         },
         {
           id: 4,
           title: 'Georgia man sues Facebook over losing account access and wins',
           image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/facebook.jpg',
-          category: 'SOCIAL MEDIA'
+          category: 'SOCIAL MEDIA',
+          author:'John Doe',
+          day:'June 15, 2023',
         },
       ]
     };

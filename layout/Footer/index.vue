@@ -137,6 +137,7 @@ export default {
 
 <style scoped>
 @media (min-width: 1200px) {
+ .top-footer{margin: 0px 139.6px;}
 .ab{ 
     font-weight: bolder;
 }

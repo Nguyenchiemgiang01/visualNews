@@ -1,7 +1,7 @@
 <template>
     <div class="main-content">
         <img class="mainimage" :src="post.image" alt="image content">
-        <h2 class="main-title">{{ post.title }}</h2>
+        <NuxtLink style="font-weight: bolder;" class="post-title" :to="{path:'/postdetail/fashion',query:{title:post.title,category:post.category,image:post.image,author:post.author,day:post.day}  }">{{ post.title }}</NuxtLink>
 
     </div>
 </template>
@@ -13,7 +13,11 @@ export default {
             post:
             {
                 title: 'TikTok’s latest trending beauty filter returns users to their younger selves',
-                image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/girl-768x512.jpg'
+                image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/girl-768x512.jpg',
+                category: 'LIFESTYLE',
+                 author:'John Doe',
+                 day:'June 15, 2023',
+          
             }
 
         };

@@ -16,6 +16,7 @@
 
                                 <div class="follow">
                                   <Follow />
+
                                 </div>
 
                         </div>

@@ -11,11 +11,11 @@
                 </div>
                                         
 
-                <a class="nav-item" href="/">HOME</a> 
-                <a class="nav-item" href="/">ADVERTISING</a> 
+                <NuxtLink class="nav-item" to="/">HOME</NuxtLink> 
+                <NuxtLink class="nav-item" to="/advertisting">ADVERTISING</NuxtLink> 
                 
                 <div class="nav-menu">
-                <a class=" nav-item menu-item " href="/">BLOGGING</a>
+                <a class=" nav-item menu-item " href="/bloggin">BLOGGING</a>
                 <ul class="dropdown-brand">
                     <li><a class="dropdown-item" href="#">SUB MENU 1</a></li>
                      <li><a class="dropdown-item" href="#">SUB MENU 2</a></li>
@@ -23,16 +23,16 @@
                 </ul>
                
                 </div>
-                <a class=" nav-item menu-item " href="/">BUSSINESS</a>
-                <a class=" nav-item menu-item " href="/">FASHION</a>
-                <a class=" nav-item menu-item " href="/">FOOD</a>
-                <a class=" nav-item menu-item " href="/">LIFESTYLE</a>
-                <a class=" nav-item menu-item " href="/">MARKETING</a>
-                <a class=" nav-item menu-item " href="/">SEO</a>
-                <a class=" nav-item menu-item " href="/">SOCIAL MEDIA</a>
-                <a class=" nav-item menu-item " href="/">TECH</a>
-                <a class=" nav-item menu-item " href="/">TRAVEL</a>
-                <a class=" nav-item menu-item " href="/">WEB DESIGN</a>
+                 <NuxtLink class=" nav-item menu-item " to="/bussiness">BUSSINESS</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">FASHION</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">FOOD</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">LIFESTYLE</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">MARKETING</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">SEO</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">SOCIAL MEDIA</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">TECH</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">TRAVEL</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="#">WEB DESIGN</NuxtLink>
                 
 
                </div>

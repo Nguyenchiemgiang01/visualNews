@@ -6,7 +6,7 @@
                 <div class="post-category">
                     <p>{{ category }}</p>
                 </div>
-                <h2 class="post-title">{{ title }}</h2>
+                <NuxtLink  class="post-title" :to="{path:'/postdetail/fashion',query:{title:title,category:category,image:image,author:author,day:day}  }">{{title}}</NuxtLink>
             </div>
         </div>
 
@@ -27,7 +27,17 @@ export default {
         title: {
             type: String,
             default: "The best smart glasses to buy now, according to experts asdasdasda",
+        },
+        author:{
+            type:String,
+            default:"John Doe"
+        },
+        day:{
+            type:String,
+            default:"April 23, 2021"
         }
+
+
     }
 }
 </script>

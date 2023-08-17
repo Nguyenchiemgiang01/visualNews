@@ -69,24 +69,9 @@
             </div>
         </div>
 
-        <div class="bloggin">
-
-            <div class="follow" style="margin-top: 10px;">
-                <strong>BLOGGING</strong>
-            </div>
-
-            <div class="">
-                <div class="postcart">
-                    <Typetag
-                        image="https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/solar-panels_EFYB8VJXNT.jpg"
-                        title="Why Apple Vision Pro’s $3,499 Price Makes More Sense Than You Think" />
-                </div>
-            </div>
-
 
         </div>
 
-    </div>
 </template>
 <script>
 import Typetag from ".././typetag/index.vue"

@@ -9,7 +9,7 @@
               <div class="post-category">
                 <p>{{ post.category }}</p>
               </div>
-              <h2 class="post-title">{{ post.title }}</h2>
+              <NuxtLink  class="post-title" :to="{path:'/postdetail/fashion',query:{title:post.title,category:post.category,image:post.image,author:post.author,day:post.day}  }">{{ post.title }}</NuxtLink>
             </div>
           </li>
         </ul>
@@ -39,19 +39,26 @@ export default {
           id: 1,
           title: 'The best smart glasses to buy now, according to experts',
           image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/glashes.jpg',
-          category: 'FASHION'
+          category: 'FASHION',
+          author:'John Doe',
+          day:'June 15, 2023',
+          
         },
         {
           id: 2,
           title: 'The best wrinkle-free travel clothes to pack for your summer',
           image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/shirt.jpg',
-          category: 'FASHION'
+          category: 'FASHION',
+          author:'John Doe',
+          day:'June 15, 2023'
         },
         {
           id: 3,
           title: 'World’s Best 25 Airlines for 2023 Revealed by Airline',
           image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/airplane-travel_J5AQI42431.jpg',
-          category: 'TRAVEL'
+          category: 'TRAVEL',
+          author:'John Doe',
+          day:'June 15, 2023',
         },
       ]
     };

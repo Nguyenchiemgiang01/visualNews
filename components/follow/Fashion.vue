@@ -1,7 +1,7 @@
 <template>
     <div class="fashion-tag">
          <div class="fashion" style="margin-top: 10px;">
-            <strong>FASHION</strong>
+            <strong>{{ maintitle }}</strong>
         </div>
         <div class="list-post">
             <ul class="post-tag">
@@ -51,6 +51,13 @@ export default {
             ]
         };
     },
+    props: {
+    maintitle: {
+        type: String,
+        default: "FASHION",
+    }
+    
+}
 }
 </script>
 <style scoped>

@@ -34,7 +34,7 @@
                             WP Newspaper Theme</p>
                     </div>
                 </div>
-                <div class="col autho au-right" style="float: right;margin-left: 50px;">
+                <div class="col autho au-right" >
                     <div class="" >
                         <div class="">
                             <div class="">
@@ -68,6 +68,7 @@
     }
     .au-right{
         display: none;
+        
     }
     .wp{
         display: none;
@@ -87,13 +88,14 @@
 }
 @media (min-width: 1200px) {
 
+    .autho{
+        max-width: 390px;
+    }
     .container{
         margin: 0px 139.6px;
         padding: 0px 0px;
     }
-    .row{
-        margin-left: 30px
-    }
+ 
 
     .site-start{
         padding-top: 30px;
@@ -104,9 +106,6 @@
     .vis-pro{
         font-size:25px ;
     }
-    .wp{
-        
-    }
-    
+
 }
 </style>

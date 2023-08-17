@@ -54,9 +54,7 @@ import Primarynav from "./Primarynav.vue"
     
 }
 @media (min-width: 1200px) {
-    .header{
-        display: contents;
-    }
+
     .header-last{
         display: contents;
     }
