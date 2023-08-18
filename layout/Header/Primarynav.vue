@@ -24,9 +24,9 @@
                
                 </div>
                  <NuxtLink class=" nav-item menu-item " to="/bussiness">BUSSINESS</NuxtLink>
-                 <NuxtLink class=" nav-item menu-item " to="#">FASHION</NuxtLink>
-                 <NuxtLink class=" nav-item menu-item " to="#">FOOD</NuxtLink>
-                 <NuxtLink class=" nav-item menu-item " to="#">LIFESTYLE</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="/fashion">FASHION</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="/food">FOOD</NuxtLink>
+                 <NuxtLink class=" nav-item menu-item " to="/lifestyle">LIFESTYLE</NuxtLink>
                  <NuxtLink class=" nav-item menu-item " to="#">MARKETING</NuxtLink>
                  <NuxtLink class=" nav-item menu-item " to="#">SEO</NuxtLink>
                  <NuxtLink class=" nav-item menu-item " to="#">SOCIAL MEDIA</NuxtLink>

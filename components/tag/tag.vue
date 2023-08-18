@@ -40,14 +40,14 @@
     padding: 10px; 
     }
 
-.list-tag a {
-    display: block;
-    padding: 5px 5px; /* Khoảng cách padding bên trong thẻ */
-    background-color: #eaeef1; /* Màu nền cho thẻ <a> */
-    color: #101010; /* Màu chữ */
-    text-decoration: none; /* Loại bỏ gạch chân chữ */
-    border-radius: 5px; /* Góc bo tròn */
-}
+    .list-tag a {
+        display: block;
+        padding: 5px 5px; /* Khoảng cách padding bên trong thẻ */
+        background-color: #eaeef1; /* Màu nền cho thẻ <a> */
+        color: #101010; /* Màu chữ */
+        text-decoration: none; /* Loại bỏ gạch chân chữ */
+        border-radius: 5px; /* Góc bo tròn */
+    }
 
 </style>
 <script>

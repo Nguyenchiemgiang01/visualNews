@@ -3,7 +3,7 @@
         <img :src="image" alt="Post Image">
         <div class="info">
             <div class="title-post">
-                <p>{{ title }}</p>
+                <NuxtLink   :to="{path:'/postdetail/fashion',query:{title:title,category:category,image:image,author:author,day:day}  }">{{ title }}</NuxtLink>
             </div>
             <div class="info-post">
                 <p>{{category }}</p>

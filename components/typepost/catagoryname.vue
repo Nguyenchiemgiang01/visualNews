@@ -11,11 +11,9 @@
                         <div class="poster">
                             <img :src="post.image" alt="image">
                             <div class="info">
-                                <p class="category">
-                                    {{ post.category }}
-                                </p>
+                             
                                 <span class="title">
-                                    {{ post.title }}
+                                    <NuxtLink  class="post-title" :to="{path:'/postdetail/fashion',query:{title:post.title,category:post.category,image:post.image,author:post.author,day:post.day}  }">{{ post.title }}</NuxtLink>
                                 </span>
                             </div>
                         </div>
@@ -38,19 +36,26 @@ export default {
                  id: 1,
                  title: 'Why Apple Vision Pro’s $3,499 Price Makes More Sense Than You Think',
                  image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/solar-panels_EFYB8VJXNT-768x512.jpg',
-                 category: ''
+                 category: 'TECHNOLOGY',
+                 author:'John Doe',
+                 day:'June 15, 2023'
+
              },
              {
                  id: 2,
                  title: 'The 6 biggest iOS 17 features that Apple stole from Android Digital Trends',
                  image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/apple-768x513.jpg',
-                 category: ''
+                 category: 'ADVERTISTING',
+                 author:'John Doe',
+                 day:'June 15, 2023'
              },
              {
                  id: 3,
                  title: '9 Ways to Engage Your Customers With Instagram Highlights',
                  image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/ins-768x512.jpg',
-                 category: ''
+                 category: 'TECHNOLOGY',
+                 author:'John Doe',
+                  day:'June 15, 2023'
              },
          ]
         };

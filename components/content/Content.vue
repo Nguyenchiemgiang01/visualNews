@@ -27,7 +27,7 @@
 
   
 <script>
-import Maincontent from "./Maincontent.vue";
+import Maincontent from './Maincontent.vue';
 import Lastcontent from './LastContent.vue';
 
 

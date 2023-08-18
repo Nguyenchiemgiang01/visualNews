@@ -10,7 +10,7 @@
 
         <div class="content" style="padding-right: 20px;">
           <div class="main-title">
-            <h2 class="catagory-post">Advertisting</h2>
+            <h2 class="catagory-post">LIFESTYLE</h2>
             <strong class="note">A simple description for this category</strong>
           </div>
           <div class="post" v-for="post in posts" :key="post.id">

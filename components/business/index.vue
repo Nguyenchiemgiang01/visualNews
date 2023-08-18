@@ -42,7 +42,7 @@
                                 <div class="post-category">
                                     <p>{{ post.category }}</p>
                                 </div>
-                                <h2 class="post-title">{{ post.title }}</h2>
+                                <NuxtLink  class="post-title" :to="{path:'/postdetail/fashion',query:{title:post.title,category:post.category,image:post.image,author:post.author,day:post.day}  }">{{ post.title }}</NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -60,19 +60,26 @@ export default {
                     id: 1,
                     title: 'The job market enters a new phase as the Great Resignation ends',
                     image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/saulo-mohana-768x511.jpg',
-                    category: 'BUSINESS'
+                    category: 'BUSINESS',
+                    author:'John Doe',
+                    day:'June 15, 2023',
+
                 },
                 {
                     id: 2,
                     title: 'Musk is no longer the CEO of Twitter. Linda Yaccarino officially starts in role',
                     image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/adem-ay-Tk9m_HP4rgQ-768x512.jpg',
-                    category: 'BUSINESS'
+                    category: 'BUSINESS',
+                    author:'John Doe',
+                    day:'June 15, 2023',
                 },
                 {
                     id: 3,
                     title: 'Deciding what to do when your employer changes the rules on remote work',
                     image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/jason-goodman-768x512.jpg',
-                    category: 'BUSINESS'
+                    category: 'BUSINESS',
+                    author:'John Doe',
+                    day:'June 15, 2023'
                 },
 
             ]

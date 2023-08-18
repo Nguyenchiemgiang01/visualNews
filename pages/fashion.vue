@@ -10,7 +10,7 @@
 
         <div class="content" style="padding-right: 20px;">
           <div class="main-title">
-            <h2 class="catagory-post">Advertisting</h2>
+            <h2 class="catagory-post">FASHION</h2>
             <strong class="note">A simple description for this category</strong>
           </div>
           <div class="post" v-for="post in posts" :key="post.id">
@@ -22,8 +22,6 @@
               :day="post.day"
               :content="post.content" />
             </div>
-          
-         
 
           <div class="navigation">
             <div class="page-buttons">
@@ -86,68 +84,67 @@ import Tag from '../components/tag/tag.vue'
 import Footer from "../layout/Footer"
 
 export default {
-  data() {
+   data() {
     return {
       posts: [
         {
           id: 1,
-          title:'Reddit communities go private to protest pricing plan for apps',
+          title:'Why Apple Vision Pro’s $3,499 Price Makes More Sense Than You Think',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,',
-          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/social-768x512.jpg',
-          category: 'FASHION',
+          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/solar-panels_EFYB8VJXNT-768x512.jpg',
+          category: 'Blogging',
           author:'John Doe',
           day:'June 15, 2023',
 
         },
         {
           id: 2,
-          title:'9 Ways to Engage Your Customers With Instagram Highlights',
+          title:'The 6 biggest iOS 17 features that Apple stole from Android Digital Trends',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,',
-          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/ins-768x512.jpg',
-          category: 'ADVERTISTING',
+          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/apple-768x513.jpg',
+          category: 'Bloggin',
           author:'John Doe',
           day:'April 23, 2021',
         },
         {
           id: 3,
-          title:'The 10-Step Guide to Creating a Profitable AdWords Campaign',
+          title:'9 Ways to Engage Your Customers With Instagram Highlights',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,',
-          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/google-768x512.jpg',
-          category: 'ADVERTISTING',
+          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/ins-768x512.jpg',
+          category: 'Advertising',
           author:'John Doe',
           day:'April 23, 2021',
         },
         {
           id: 4,
-          title:'Best Business Process Management Software',
+          title:'A Starter Guide to Google Ads Manager Accounts',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,',
-          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/facebook.jpg',
-          category: 'ADVERTISTING',
+          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2021/04/architecture-building-768x512.jpeg',
+          category: 'Bloggin',
           author:'John Doe',
           day:'April 23, 2021',
         },
         {
           id: 5,
-          title:'How to Use Amazon Attribution For Ad Campaigns',
+          title:'What Are Influencer Engagement Marketplaces (and How to Use)',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,',
-          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2021/04/family-bathroom-768x512.jpeg',
-          category: 'ADVERTISTING',
+          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2021/04/grass-field-600x400.jpeg',
+          category: 'Bloggin',
           author:'John Doe',
           day:'April 23, 2021',
         },
         {
           id: 6,
-          title:'How to Use Amazon Attribution For Ad Campaigns',
+          title:'The 10-Step Guide to Creating a Profitable AdWords Campaign',
           content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,',
-          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/facebook.jpg',
-          category: 'ADVERTISTING',
+          image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/google-768x512.jpg',
+          category: 'Advertising',
           author:'John Doe',
           day:'April 23, 2021',
         },
       ]
     };
   },
-
   components: {
     Header,
     Content,
@@ -268,4 +265,5 @@ export default {
     margin: 0px 5px;
   }
 
-}</style>
+}
+</style>

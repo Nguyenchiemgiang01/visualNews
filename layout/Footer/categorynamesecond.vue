@@ -25,7 +25,7 @@
     </div>
 </template>
 <script>
-import PostCategory from "../../components/post/PostCatagory.vue"
+
 
 export default {
     data() {
@@ -52,7 +52,7 @@ export default {
          ]
         };
     },
-    components: { PostCategory }
+    components: {  }
 }
 </script>
 

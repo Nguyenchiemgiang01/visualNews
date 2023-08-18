@@ -11,7 +11,7 @@
                         <div class="post-category">
                             <p>{{ post.category }}</p>
                         </div>
-                        <h2 class="post-title">{{ post.title }}</h2>
+                        <NuxtLink  class="post-title" :to="{path:'/postdetail/fashion',query:{title:post.title,category:post.category,image:post.image,author:post.author,day:post.day}  }">{{ post.title }}</NuxtLink>
                     </div>
                 </li>
             </ul>
@@ -28,25 +28,33 @@ export default {
                     id: 1,
                     title: 'The best smart glasses to buy now, according to experts',
                     image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/glashes.jpg',
-                    category: 'FASHION'
+                    category: 'FASHION',
+                    author:'John Doe',
+                    day:'June 15, 2023',
                 },
                 {
                     id: 2,
                     title: 'The best wrinkle-free travel clothes to pack for your summer',
                     image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/shirt.jpg',
-                    category: 'FASHION'
+                    category: 'FASHION',
+                    author:'John Doe',
+                    day:'June 15, 2023',
                 },
                 {
                     id: 3,
                     title: 'The 23 best men’s shorts for the summer, according to style experts',
                     image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/man-768x512.jpg',
-                    category: 'FASHION'
+                    category: 'FASHION',
+                    author:'John Doe',
+                    day:'June 15, 2023',
                 },
                 {
                     id: 4,
                     title: 'Adidas vs. Hoka: We put these favorite running shoes to the test',
                     image: 'https://demo.wpenjoy.com/visualnews-pro/wp-content/uploads/sites/64/2023/06/adidas-768x512.jpg',
-                    category: 'FASHION'
+                    category: 'FASHION',
+                    author:'John Doe',
+                    day:'June 15, 2023',
                 },
             ]
         };

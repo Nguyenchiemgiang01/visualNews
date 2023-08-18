@@ -10,9 +10,13 @@
 
                 <div class="content" style="padding-right: 20px;">
                     <div class="main-title">
-                        <p
-                            style="padding: 2px 2px;font-size: small;background-color: black;color:aliceblue;width: fit-content;font-weight: lighter;margin-top:30px;margin-bottom: 10px;">
+                        <NuxtLink :to="getCategoryLink">
+                            <p style="padding: 2px 2px;font-size: small;background-color: black;color:aliceblue;width: fit-content;font-weight: lighter;margin-top:30px;margin-bottom: 10px;">
                             {{ $route.query.category }}</p>
+                        </NuxtLink>
+
+                        
+
                         <h2>{{ $route.query.title }}</h2>
                         <p style="font-weight: lighter;margin-top: 20px; margin-bottom: 10px;">Posted by {{
                             $route.query.author }} - {{ $route.query.day }} </p>
@@ -218,6 +222,12 @@ import Tag from '../../components/tag/tag.vue'
 import Footer from "../../layout/Footer"
 
 export default {
+    computed: {
+    getCategoryLink() {
+      const category = (this.$route.query.category).toLowerCase();
+      return `/${category}`;
+    },
+},
     components: {
         Header,
         Content,
